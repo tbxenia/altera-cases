@@ -174,9 +174,9 @@ svg * {
     --font-family-base: 'Geologica Roman', sans-serif;
     --font-family-extra: 'IBM Plex Sans', sans-serif;
     
-    --container-width: 1377px;
+    --container-width: 1161px;
 	--container-padding-x: 15px;
-	--section-padding-y: clamp(1.5625rem, .8319215876rem + 3.3881897386vw, 3.75rem);
+	--section-padding-y: 30px;
 	--section-padding-y-invert: clamp(-1.5625rem, -.8319215876rem + -3.3881897386vw, -3.75rem);
 	--transition-duration: .2s;
 	--transition-duration-longer: .4s
@@ -337,7 +337,7 @@ body.modal-fixed {
 
 .section__title {
 	font-size: 54px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	line-height: 60px;
 }
 
@@ -2127,7 +2127,7 @@ textarea.error {
 }
 
 .hero__info {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .hero__title {
@@ -2318,6 +2318,7 @@ textarea.error {
 	display: flex;
 	gap: 78px;
 	align-items: center;
+	margin-top: 30px;
 }
 
 .tasks__img img {
@@ -2330,7 +2331,7 @@ textarea.error {
 }
 
 .tasks__text p {
-	margin-bottom: 28px;
+	margin-bottom: 10px;
 }
 
 .tasks__text p:last-child {
@@ -2571,7 +2572,7 @@ textarea.error {
 }
 
 .results .results__content p:not(:last-child) {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .results .results__content img {
