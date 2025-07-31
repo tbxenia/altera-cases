@@ -2579,6 +2579,10 @@ textarea.error {
 	margin: 0 auto;
 }
 
+.results__content-first {
+	margin-bottom: 38px;
+}
+
 @media(max-width: 991px) {
 	.results__wrapper {
 		margin: 30px auto 0;
