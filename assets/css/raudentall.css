@@ -1,0 +1,507 @@
+.raudentall .hero__info {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+}
+
+.raudentall .hero__title {
+	font-weight: 200;
+	font-size: 50px;
+	line-height: 56px;
+}
+
+.raudentall .hero__logo,
+.raudentall .hero__title {
+	margin-bottom: 0;
+}
+
+.raudentall .hero__img {
+	position: relative;
+	bottom: auto;
+	right: auto;
+}
+
+.raudentall .hero .section__body {
+	display: flex;
+	gap: 15px;
+	justify-content: space-between;
+}
+
+.raudentall .section:not(.contacts) img:not(.icon) {
+	box-shadow: 0px 0px 20px 0px rgba(149, 210, 221, 0.6);
+	border-radius: 10px;
+}
+
+.raudentall .about-client__text h3 {
+	margin-bottom: 28px;
+}
+
+.raudentall .tasks__content {
+	margin-bottom: 45px;
+}
+
+/* tz-and-design */
+
+.tz-and-design .section__body {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+	flex-wrap: wrap;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+}
+
+.tz-and-design .section__body .text-block {
+	width: calc(1/2*100% - (1 - 1/2)*5px);
+}
+
+.tz-and-design .text-block.full {
+	width: 100%;
+	max-width: 676px;
+	margin-top: 50px;
+}
+
+.quote {
+	background: #F3F7FA;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	padding: 35px;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+	font-style: italic;
+	display: flex;
+	gap: 30px;
+}
+
+.quote p b {
+	font-weight: 700;
+	font-style: normal;
+}
+
+.quote p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.quote:after {
+	content: url('../images/raudentall/bg-gradient.svg');
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 0 10px 0 0;
+}
+
+.text-block.list {
+	padding-left: 45px;
+}
+
+.tasks__list {
+	padding: 45px 0;
+	margin-bottom: 0;
+}
+
+/* realization */
+
+.realization p:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.column-2 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	align-items: stretch;
+}
+
+.flex-block {
+	display: flex;
+	gap: 15px;
+	align-items: stretch;
+	justify-content: center;
+}
+
+.flex-block.align-center {
+	align-items: center;
+}
+
+.flex-block .text-block__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-2 .text-block__item {
+	width: calc(1/2*100% - (1 - 1/2)*15px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.realization .text-block {
+	padding: 30px 0;
+}
+
+.vertical-center .text-block__item {
+	justify-content: center;
+}
+
+.realization .text-block__item ul {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 15px;
+	row-gap: 70px;
+	align-items: stretch;
+	margin-bottom: 70px;
+}
+
+.realization .text-block__item ul li {
+	width: calc(1/2*100% - (1 - 1/2)*15px);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	padding-left: 56px;
+}
+
+.realization .text-block__item img {
+	max-width: none;
+}
+
+.realization .text-block__item ul li:last-child {
+	width: 100%;
+}
+
+.realization .text-block__item ul li:before {
+	content: url('data:image/svg+xml,<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 13C24 6.92487 19.0751 2 13 2C6.92487 2 2 6.92487 2 13C2 19.0751 6.92487 24 13 24V26C5.8203 26 0 20.1797 0 13C0 5.8203 5.8203 0 13 0C20.1797 0 26 5.8203 26 13C26 20.1797 20.1797 26 13 26V24C19.0751 24 24 19.0751 24 13Z" fill="%23743FDD"/><path d="M11.64 20.105V14.06H5.28003V11.975H11.64V5.91504H13.815V11.975H20.16V14.06H13.815V20.105H11.64Z" fill="%23743FDD"/></svg>');
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.realization .text-block__item ul li p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+/* testing */
+
+.testing__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 50px;
+	align-items: center;
+}
+
+.testing__item {
+	width: calc(1/2*100% - (1 - 1/2)*30px);
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.testing img {
+	max-width: none;
+}
+
+/* release */
+
+.release .text-block:not(:last-child) {
+	margin-bottom: 50px;
+}
+
+.raudentall h3 {
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 60px;
+	margin-bottom: 50px;
+}
+
+.release .photo-block {
+	margin-top: 40px;
+	margin-bottom: 50px;
+	display: flex;
+	gap: 15px;
+}
+
+/* results */
+
+.results img {
+	max-width: none;
+}
+
+.results .flex-block .text-block__item {
+	justify-content: center;
+	gap: 50px;
+}
+
+.results .text-block__list {
+	display: flex;
+	gap: 50px;
+	flex-direction: column;
+}
+
+.results .text-block__elem {
+	display: flex;
+	gap: 47px;
+	align-items: center;
+}
+
+.text-block__result {
+	padding-left: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.results h3 {
+	margin-top: 60px;
+}
+
+.text-block.work {
+	padding: 0 73px;
+	display: flex;
+	gap: 62px;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+}
+
+.text-block.work p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.text-block.work ul {
+	margin-left: 10px;
+}
+
+.text-block.work ul li {
+	position: relative;
+	padding-left: 15px;
+}
+
+.text-block.work ul li:before {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	content: '';
+}
+
+.block-left {
+	display: flex;
+	flex-direction: column;
+}
+
+.plitka {
+	gap: 11px;
+}
+
+@media(max-width: 1199px) {
+	.raudentall .hero .section__body {
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.tz-and-design .section__body .text-block {
+		width: 100%;
+		padding-left: 0;
+	}
+	
+	.tz-and-design .section__body {
+		gap: 30px;
+	}
+	
+	.tz-and-design .text-block.full {
+		margin-top: 0;
+	}
+	
+	.realization .text-block__item img {
+		max-width: 100%;
+	}
+	
+	.raudentall .release img {
+		max-width: 100%;
+	}
+	
+	.results .flex-block {
+		flex-direction: column;
+		gap: 50px;
+	}
+	
+	.results img:not(.icon) {
+		max-width: 100%;
+	}
+	
+	.results .text-block__list {
+		gap: 30px;
+	}
+	
+	.results .flex-block .text-block__item {
+		gap: 30px;
+	}
+	
+	.results .section__body {
+		flex-direction: column;
+		gap: 30px;
+		display: flex;
+	}
+	
+	.results .text-block__item {
+		order: 2;
+	}
+	
+	.results .text-block__item.text-block__result {
+		order: 1;
+	}
+	
+	.results h3 {
+		margin: 20px 0 10px;
+	}
+}
+
+@media(max-width: 767px) {
+	
+	.raudentall .hero__title {
+		font-size: 30px;
+		line-height: 38px;
+		text-align: center;
+	}
+	
+	.raudentall .about-client__img {
+		display: none;
+	}
+	
+	.raudentall .about-client__text {
+		order: 1;
+	}
+	
+	.section__title {
+		text-align: center;
+	}
+	
+	.raudentall .about-client__text h3 {
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 25px;
+		text-align: center;
+		letter-spacing: -0.02em;
+	}
+	
+	.raudentall .tasks__text {
+		order: 2;
+	}
+	
+	.raudentall .tasks__img {
+		order: 1;
+		display: block;
+	}
+	
+	.raudentall .tasks__img img {
+		max-width: 100%;
+	}
+	
+	.raudentall .tasks__content {
+		gap: 60px;
+		margin-bottom: 0;
+	}
+	
+	.raudentall .tasks__list {
+		padding: 25px 0 35px;
+	}
+	
+	.raudentall .tz-and-design .tasks__list {
+		padding-bottom: 0;
+	}
+	
+	.realization .column-2 .text-block__item {
+		width: 100%;
+	}
+	
+	.realization .column-2 {
+		gap: 45px;
+	}
+	
+	.realization .text-block__item img {
+		max-width: 100%;
+	}
+	
+	.photo-block {
+		flex-wrap: wrap;
+	}
+	
+	.photo-block img {
+		max-width: 100%;
+	}
+	
+	.block-left {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	
+	.block-right {
+		width: 100%;
+	}
+	
+	.realization .text-block {
+		padding: 15px 0;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.realization .text-block__item ul {
+		row-gap: 20px;
+	}
+	
+	.testing__list {
+		gap: 30px;
+	}
+	
+	.text-block.work {
+		padding: 0;
+		flex-direction: column;
+		gap: 10px;
+	}
+	
+	.text-block.work ul {
+		margin-left: 0;
+	}
+	
+	.testing__item {
+		width: 100%;
+	}
+	
+	.text-block__result {
+		padding-left: 0;
+	}
+	
+	.text-block__result .icon img {
+		min-width: 76px;
+	}
+}
+
+@media(max-width: 480px) {
+	.realization .text-block__item ul li {
+		width: 100%;
+	}
+	
+	.raudentall h3 {
+		line-height: 36px;
+	}
+	
+	.quote {
+		flex-direction: column;
+	}
+}
